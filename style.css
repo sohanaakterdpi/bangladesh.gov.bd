@@ -1,0 +1,92 @@
+body{
+    background-image: url(./images/bangladesh.gif);
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    width: 1020px;
+    margin: 0 auto;
+}
+.topbar{
+    background: #9e5bba;
+    width: 100%;
+    float: left;
+    padding: 5px 10px;
+    color: white;
+}
+.topbar .topbar-left{
+    float: left;
+}
+.topbar .topbar-right{
+    float: right;
+    font-size: 15px;
+}
+.topbar-right a{
+    color: white;
+    font-size: 15px;
+    
+}
+.header{
+    background: #ffffff;
+    width: 100%;
+    float: left;
+}
+.header-left{
+float: left;
+}
+.header-left img{
+margin-left: 20px;
+margin-top: 18px;
+margin-bottom: 13px;
+}
+
+.header-right{
+float: right;
+width: 580px;
+}
+.hr-top ul{
+    background-color: #04aa01;
+    margin: 0;
+    padding: 0;
+}
+.hr-top ul li{
+    list-style: none;
+    display: inline-block;
+}
+span{
+    font-size: 25px;
+}
+.hr-top ul li a{
+    color: white;
+    padding: 0px 5px;
+    font-size: 12px;
+    text-decoration: none;
+    border-left: 1px solid white;
+    display: inline-block;
+    height: 25px;
+    float: left;
+}
+.hr-bottom{
+    margin-top: 15px;
+}
+.search{
+float: left;
+}
+.search input[type=text]{
+width: 300px;
+height: 18px;
+padding: 3px;
+border-radius: 4px;
+}
+.search input[type=button]{
+    height: 28px;
+    padding: 3px;
+}
+.social-container{
+float: right;
+border-left: 1px solid #0c0909;
+padding-left: 10px;
+}
+.a2i-logo{
+    padding-left: 15px;
+}
